@@ -1,0 +1,600 @@
+{
+  "market": "migros",
+  "type": "catalog",
+  "source": "katalog.pdf",
+  "updated": "2026-10-10",
+  "sections": [
+    {
+      "id": "migroskop_bolum_1",
+      "title": "Migroskop Bölüm 1",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-21",
+      "page_from": 1,
+      "page_to": 108,
+      "page_count": 108,
+      "cover": "section_1/cover_thumb.webp",
+      "pages": [
+        {
+          "n": 1,
+          "full": "section_1/page_001_full.webp"
+        },
+        {
+          "n": 2,
+          "full": "section_1/page_002_full.webp"
+        },
+        {
+          "n": 3,
+          "full": "section_1/page_003_full.webp"
+        },
+        {
+          "n": 4,
+          "full": "section_1/page_004_full.webp"
+        },
+        {
+          "n": 5,
+          "full": "section_1/page_005_full.webp"
+        },
+        {
+          "n": 6,
+          "full": "section_1/page_006_full.webp"
+        },
+        {
+          "n": 7,
+          "full": "section_1/page_007_full.webp"
+        },
+        {
+          "n": 8,
+          "full": "section_1/page_008_full.webp"
+        },
+        {
+          "n": 9,
+          "full": "section_1/page_009_full.webp"
+        },
+        {
+          "n": 10,
+          "full": "section_1/page_010_full.webp"
+        },
+        {
+          "n": 11,
+          "full": "section_1/page_011_full.webp"
+        },
+        {
+          "n": 12,
+          "full": "section_1/page_012_full.webp"
+        },
+        {
+          "n": 13,
+          "full": "section_1/page_013_full.webp"
+        },
+        {
+          "n": 14,
+          "full": "section_1/page_014_full.webp"
+        },
+        {
+          "n": 15,
+          "full": "section_1/page_015_full.webp"
+        },
+        {
+          "n": 16,
+          "full": "section_1/page_016_full.webp"
+        },
+        {
+          "n": 17,
+          "full": "section_1/page_017_full.webp"
+        },
+        {
+          "n": 18,
+          "full": "section_1/page_018_full.webp"
+        },
+        {
+          "n": 19,
+          "full": "section_1/page_019_full.webp"
+        },
+        {
+          "n": 20,
+          "full": "section_1/page_020_full.webp"
+        },
+        {
+          "n": 21,
+          "full": "section_1/page_021_full.webp"
+        },
+        {
+          "n": 22,
+          "full": "section_1/page_022_full.webp"
+        },
+        {
+          "n": 23,
+          "full": "section_1/page_023_full.webp"
+        },
+        {
+          "n": 24,
+          "full": "section_1/page_024_full.webp"
+        },
+        {
+          "n": 25,
+          "full": "section_1/page_025_full.webp"
+        },
+        {
+          "n": 26,
+          "full": "section_1/page_026_full.webp"
+        },
+        {
+          "n": 27,
+          "full": "section_1/page_027_full.webp"
+        },
+        {
+          "n": 28,
+          "full": "section_1/page_028_full.webp"
+        },
+        {
+          "n": 29,
+          "full": "section_1/page_029_full.webp"
+        },
+        {
+          "n": 30,
+          "full": "section_1/page_030_full.webp"
+        },
+        {
+          "n": 31,
+          "full": "section_1/page_031_full.webp"
+        },
+        {
+          "n": 32,
+          "full": "section_1/page_032_full.webp"
+        },
+        {
+          "n": 33,
+          "full": "section_1/page_033_full.webp"
+        },
+        {
+          "n": 34,
+          "full": "section_1/page_034_full.webp"
+        },
+        {
+          "n": 35,
+          "full": "section_1/page_035_full.webp"
+        },
+        {
+          "n": 36,
+          "full": "section_1/page_036_full.webp"
+        },
+        {
+          "n": 37,
+          "full": "section_1/page_037_full.webp"
+        },
+        {
+          "n": 38,
+          "full": "section_1/page_038_full.webp"
+        },
+        {
+          "n": 39,
+          "full": "section_1/page_039_full.webp"
+        },
+        {
+          "n": 40,
+          "full": "section_1/page_040_full.webp"
+        },
+        {
+          "n": 41,
+          "full": "section_1/page_041_full.webp"
+        },
+        {
+          "n": 42,
+          "full": "section_1/page_042_full.webp"
+        },
+        {
+          "n": 43,
+          "full": "section_1/page_043_full.webp"
+        },
+        {
+          "n": 44,
+          "full": "section_1/page_044_full.webp"
+        },
+        {
+          "n": 45,
+          "full": "section_1/page_045_full.webp"
+        },
+        {
+          "n": 46,
+          "full": "section_1/page_046_full.webp"
+        },
+        {
+          "n": 47,
+          "full": "section_1/page_047_full.webp"
+        },
+        {
+          "n": 48,
+          "full": "section_1/page_048_full.webp"
+        },
+        {
+          "n": 49,
+          "full": "section_1/page_049_full.webp"
+        },
+        {
+          "n": 50,
+          "full": "section_1/page_050_full.webp"
+        },
+        {
+          "n": 51,
+          "full": "section_1/page_051_full.webp"
+        },
+        {
+          "n": 52,
+          "full": "section_1/page_052_full.webp"
+        },
+        {
+          "n": 53,
+          "full": "section_1/page_053_full.webp"
+        },
+        {
+          "n": 54,
+          "full": "section_1/page_054_full.webp"
+        },
+        {
+          "n": 55,
+          "full": "section_1/page_055_full.webp"
+        },
+        {
+          "n": 56,
+          "full": "section_1/page_056_full.webp"
+        },
+        {
+          "n": 57,
+          "full": "section_1/page_057_full.webp"
+        },
+        {
+          "n": 58,
+          "full": "section_1/page_058_full.webp"
+        },
+        {
+          "n": 59,
+          "full": "section_1/page_059_full.webp"
+        },
+        {
+          "n": 60,
+          "full": "section_1/page_060_full.webp"
+        },
+        {
+          "n": 61,
+          "full": "section_1/page_061_full.webp"
+        },
+        {
+          "n": 62,
+          "full": "section_1/page_062_full.webp"
+        },
+        {
+          "n": 63,
+          "full": "section_1/page_063_full.webp"
+        },
+        {
+          "n": 64,
+          "full": "section_1/page_064_full.webp"
+        },
+        {
+          "n": 65,
+          "full": "section_1/page_065_full.webp"
+        },
+        {
+          "n": 66,
+          "full": "section_1/page_066_full.webp"
+        },
+        {
+          "n": 67,
+          "full": "section_1/page_067_full.webp"
+        },
+        {
+          "n": 68,
+          "full": "section_1/page_068_full.webp"
+        },
+        {
+          "n": 69,
+          "full": "section_1/page_069_full.webp"
+        },
+        {
+          "n": 70,
+          "full": "section_1/page_070_full.webp"
+        },
+        {
+          "n": 71,
+          "full": "section_1/page_071_full.webp"
+        },
+        {
+          "n": 72,
+          "full": "section_1/page_072_full.webp"
+        },
+        {
+          "n": 73,
+          "full": "section_1/page_073_full.webp"
+        },
+        {
+          "n": 74,
+          "full": "section_1/page_074_full.webp"
+        },
+        {
+          "n": 75,
+          "full": "section_1/page_075_full.webp"
+        },
+        {
+          "n": 76,
+          "full": "section_1/page_076_full.webp"
+        },
+        {
+          "n": 77,
+          "full": "section_1/page_077_full.webp"
+        },
+        {
+          "n": 78,
+          "full": "section_1/page_078_full.webp"
+        },
+        {
+          "n": 79,
+          "full": "section_1/page_079_full.webp"
+        },
+        {
+          "n": 80,
+          "full": "section_1/page_080_full.webp"
+        },
+        {
+          "n": 81,
+          "full": "section_1/page_081_full.webp"
+        },
+        {
+          "n": 82,
+          "full": "section_1/page_082_full.webp"
+        },
+        {
+          "n": 83,
+          "full": "section_1/page_083_full.webp"
+        },
+        {
+          "n": 84,
+          "full": "section_1/page_084_full.webp"
+        },
+        {
+          "n": 85,
+          "full": "section_1/page_085_full.webp"
+        },
+        {
+          "n": 86,
+          "full": "section_1/page_086_full.webp"
+        },
+        {
+          "n": 87,
+          "full": "section_1/page_087_full.webp"
+        },
+        {
+          "n": 88,
+          "full": "section_1/page_088_full.webp"
+        },
+        {
+          "n": 89,
+          "full": "section_1/page_089_full.webp"
+        },
+        {
+          "n": 90,
+          "full": "section_1/page_090_full.webp"
+        },
+        {
+          "n": 91,
+          "full": "section_1/page_091_full.webp"
+        },
+        {
+          "n": 92,
+          "full": "section_1/page_092_full.webp"
+        },
+        {
+          "n": 93,
+          "full": "section_1/page_093_full.webp"
+        },
+        {
+          "n": 94,
+          "full": "section_1/page_094_full.webp"
+        },
+        {
+          "n": 95,
+          "full": "section_1/page_095_full.webp"
+        },
+        {
+          "n": 96,
+          "full": "section_1/page_096_full.webp"
+        },
+        {
+          "n": 97,
+          "full": "section_1/page_097_full.webp"
+        },
+        {
+          "n": 98,
+          "full": "section_1/page_098_full.webp"
+        },
+        {
+          "n": 99,
+          "full": "section_1/page_099_full.webp"
+        },
+        {
+          "n": 100,
+          "full": "section_1/page_100_full.webp"
+        },
+        {
+          "n": 101,
+          "full": "section_1/page_101_full.webp"
+        },
+        {
+          "n": 102,
+          "full": "section_1/page_102_full.webp"
+        },
+        {
+          "n": 103,
+          "full": "section_1/page_103_full.webp"
+        },
+        {
+          "n": 104,
+          "full": "section_1/page_104_full.webp"
+        },
+        {
+          "n": 105,
+          "full": "section_1/page_105_full.webp"
+        },
+        {
+          "n": 106,
+          "full": "section_1/page_106_full.webp"
+        },
+        {
+          "n": 107,
+          "full": "section_1/page_107_full.webp"
+        },
+        {
+          "n": 108,
+          "full": "section_1/page_108_full.webp"
+        }
+      ]
+    },
+    {
+      "id": "migroskop_bolum_2",
+      "title": "Migroskop Bölüm 2",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-21",
+      "page_from": 109,
+      "page_to": 142,
+      "page_count": 34,
+      "cover": "section_2/cover_thumb.webp",
+      "pages": [
+        {
+          "n": 109,
+          "full": "section_2/page_109_full.webp"
+        },
+        {
+          "n": 110,
+          "full": "section_2/page_110_full.webp"
+        },
+        {
+          "n": 111,
+          "full": "section_2/page_111_full.webp"
+        },
+        {
+          "n": 112,
+          "full": "section_2/page_112_full.webp"
+        },
+        {
+          "n": 113,
+          "full": "section_2/page_113_full.webp"
+        },
+        {
+          "n": 114,
+          "full": "section_2/page_114_full.webp"
+        },
+        {
+          "n": 115,
+          "full": "section_2/page_115_full.webp"
+        },
+        {
+          "n": 116,
+          "full": "section_2/page_116_full.webp"
+        },
+        {
+          "n": 117,
+          "full": "section_2/page_117_full.webp"
+        },
+        {
+          "n": 118,
+          "full": "section_2/page_118_full.webp"
+        },
+        {
+          "n": 119,
+          "full": "section_2/page_119_full.webp"
+        },
+        {
+          "n": 120,
+          "full": "section_2/page_120_full.webp"
+        },
+        {
+          "n": 121,
+          "full": "section_2/page_121_full.webp"
+        },
+        {
+          "n": 122,
+          "full": "section_2/page_122_full.webp"
+        },
+        {
+          "n": 123,
+          "full": "section_2/page_123_full.webp"
+        },
+        {
+          "n": 124,
+          "full": "section_2/page_124_full.webp"
+        },
+        {
+          "n": 125,
+          "full": "section_2/page_125_full.webp"
+        },
+        {
+          "n": 126,
+          "full": "section_2/page_126_full.webp"
+        },
+        {
+          "n": 127,
+          "full": "section_2/page_127_full.webp"
+        },
+        {
+          "n": 128,
+          "full": "section_2/page_128_full.webp"
+        },
+        {
+          "n": 129,
+          "full": "section_2/page_129_full.webp"
+        },
+        {
+          "n": 130,
+          "full": "section_2/page_130_full.webp"
+        },
+        {
+          "n": 131,
+          "full": "section_2/page_131_full.webp"
+        },
+        {
+          "n": 132,
+          "full": "section_2/page_132_full.webp"
+        },
+        {
+          "n": 133,
+          "full": "section_2/page_133_full.webp"
+        },
+        {
+          "n": 134,
+          "full": "section_2/page_134_full.webp"
+        },
+        {
+          "n": 135,
+          "full": "section_2/page_135_full.webp"
+        },
+        {
+          "n": 136,
+          "full": "section_2/page_136_full.webp"
+        },
+        {
+          "n": 137,
+          "full": "section_2/page_137_full.webp"
+        },
+        {
+          "n": 138,
+          "full": "section_2/page_138_full.webp"
+        },
+        {
+          "n": 139,
+          "full": "section_2/page_139_full.webp"
+        },
+        {
+          "n": 140,
+          "full": "section_2/page_140_full.webp"
+        },
+        {
+          "n": 141,
+          "full": "section_2/page_141_full.webp"
+        },
+        {
+          "n": 142,
+          "full": "section_2/page_142_full.webp"
+        }
+      ]
+    }
+  ]
+}

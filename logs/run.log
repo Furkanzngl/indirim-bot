@@ -723,3 +723,28 @@ core.fetch.HttpError: 400 https://cdn1.bim.com.tr/uploads/afisler/ -> ''
 2026-10-09 21:51:37 [INFO] [migros] {'urunler': 1260, 'kategoriler': 390, 'all_paketleri': 42, 'silinen_eski_dosya': 0}
 2026-10-09 21:51:37 [INFO] index.json güncellendi (24 kampanya)
 2026-10-09 21:51:37 [INFO] Bitti. Yayında: 24 kampanya. Hatalı market: yok
+2026-10-10 22:41:19 [INFO] ==================================================
+2026-10-10 22:41:19 [INFO] Başladı: 2026-10-10 22:41 (impersonate=chrome124)
+2026-10-10 22:41:19 [INFO] [bim] 14 kampanya bulundu, hepsi işleniyor
+2026-10-10 22:41:21 [INFO] yeni görsel: 988bea5cb5511c44 (sayfa 1)
+2026-10-10 22:41:23 [INFO] yeni görsel: 9d468fcfb92715a4 (sayfa 2)
+2026-10-10 22:41:24 [INFO] yeni görsel: 02001993bd951a24 (sayfa 3)
+2026-10-10 22:41:24 [INFO] [bim] tamam: 14 kampanya güncel
+2026-10-10 22:41:26 [INFO] [sok] PDF indiriliyor: mv0lt575-7-13_ekim.pdf
+2026-10-10 22:41:54 [INFO] [sok] PDF indiriliyor: mv0lvk19-10-13_Ekim.pdf
+2026-10-10 22:41:59 [INFO] [sok] 2 kampanya bulundu, hepsi işleniyor
+2026-10-10 22:41:59 [INFO] [sok] tamam: 2 kampanya güncel
+2026-10-10 22:42:15 [INFO] [a101] 8 kampanya bulundu, hepsi işleniyor
+2026-10-10 22:42:18 [INFO] yeni görsel: 74a3017f431f890d (sayfa 3)
+2026-10-10 22:42:20 [INFO] yeni görsel: 7c02afbf08b7c50e (sayfa 5)
+2026-10-10 22:42:20 [INFO] [a101] tamam: 8 kampanya güncel
+2026-10-10 22:44:05 [INFO] [migros] API'den 1806 benzersiz ürün okundu (61 sayfa)
+2026-10-10 22:44:15 [INFO] [migros] {'urunler': 1236, 'kategoriler': 388, 'all_paketleri': 42, 'silinen_eski_dosya': 5}
+2026-10-10 22:44:15 [INFO] [catalog:migroskop] Bölüm 1: sayfa 1-108 render ediliyor
+2026-10-10 22:44:35 [INFO] [catalog:migroskop] Bölüm 2: sayfa 109-142 render ediliyor
+2026-10-10 22:44:41 [INFO] [catalog:migroskop] 142 sayfa üretildi (katalog.pdf)
+2026-10-10 22:44:41 [INFO] [catalog:5m] Bölüm 1: sayfa 1-111 render ediliyor
+2026-10-10 22:45:01 [INFO] [catalog:5m] Bölüm 2: sayfa 112-159 render ediliyor
+2026-10-10 22:45:10 [INFO] [catalog:5m] 159 sayfa üretildi (5mkatalog.pdf)
+2026-10-10 22:45:10 [INFO] index.json güncellendi (29 kampanya)
+2026-10-10 22:45:10 [INFO] Bitti. Yayında: 29 kampanya. Hatalı market: yok

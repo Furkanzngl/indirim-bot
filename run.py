@@ -16,7 +16,8 @@ from curl_cffi import requests
 
 from core import imgopt, log, store
 from core.fetch import BlockedError, Fetcher
-from markets import bim, sok, a101, migros
+from markets import bim, sok, a101
+from migros_catalog import build_catalog
 
 # Görev Zamanlayıcı çalışma dizinini garanti etmez, o yüzden yolları scriptin yerinden hesapla.
 BASE = Path(__file__).resolve().parent
@@ -28,6 +29,7 @@ LOCK_PATH = BASE / "logs" / "run.lock"
 IMPERSONATE = "chrome124"
 
 MARKETS = [bim, sok, a101]
+CATALOG_MARKET = "migros"
 
 
 # ---------------------------------------------------------------- yardımcılar
@@ -66,6 +68,10 @@ def summary_of(detail: dict, detail_rel: str) -> dict:
     }
 
 
+def sort_key(s: dict):
+    return (s["market"], s.get("start_date") or "", s["id"])
+
+
 # ---------------------------------------------------------- sayfa / kampanya
 
 FULL_CHECK_DAYS = 2  # bir sayfa bu kadar gün sonra yeniden indirilip karşılaştırılır
@@ -76,7 +82,6 @@ def sync_page(fetcher: Fetcher, manifest: dict, page: dict, logger) -> str:
     Sayfayı senkronize eder ve içerik hash'ini döner.
     - URL daha önce işlendiyse, dosyalar diskteyse ve son kontrol FULL_CHECK_DAYS'ten yeniyse istek atmaz.
     - Aksi halde görseli indirir, hash'ini hesaplar, değişmişse yeni WebP'leri yazar.
-    A101 CDN'i ETag/Last-Modified göndermediği için koşullu istek kullanılmaz.
     """
     src = page["src"]
     prev = manifest["pages"].get(src, {})
@@ -139,15 +144,12 @@ def process_campaign(mod, fetcher: Fetcher, manifest: dict, c: dict, logger) -> 
     return summary_of(detail, detail_rel)
 
 
-def process_market(mod, fetcher: Fetcher, manifest: dict, today: str, logger) -> dict:
+def process_market(mod, fetcher: Fetcher, manifest: dict, logger) -> dict:
     campaigns = mod.fetch_campaigns(fetcher)
-    
-    # Tarih filtresini kaldır: Sitede yayında olan tüm kampanyaları aktif kabul et
-    active = campaigns
     logger.info(f"[{mod.NAME}] {len(campaigns)} kampanya bulundu, hepsi işleniyor")
 
     results = {}
-    for c in active:
+    for c in campaigns:
         try:
             s = process_campaign(mod, fetcher, manifest, c, logger)
             results[s["id"]] = s
@@ -166,6 +168,7 @@ def merge(old_campaigns: list, fresh_by_market: dict, today: str) -> list:
     - Taze gelen kampanya her zaman yeni halini alır.
     - Taze gelmeyen (market hatalı, engel, veya kampanya hata verdi) eski kayıt,
       bitiş tarihi geçmediyse ve detay dosyası hâlâ diskteyse korunur.
+    Not: Katalog kayıtları (Migroskop, 5M) build_catalog ile ayrıca eklenir.
     """
     out = []
     for mod in MARKETS:
@@ -178,7 +181,6 @@ def merge(old_campaigns: list, fresh_by_market: dict, today: str) -> list:
             and (not s.get("end_date") or s["end_date"] >= today)
             and (DATA / s["detail_path"]).exists()
         )
-    out.sort(key=lambda s: (s["market"], s.get("start_date") or "", s["id"]))
     return out
 
 
@@ -207,6 +209,7 @@ def prune(campaigns: list, logger):
     Index'te olmayan detay dosyalarını ve görselleri siler.
     Güvenlik: bir detay okunamazsa silme işlemi tamamen atlanır.
     Döner: korunan görsel hash'leri kümesi, atlandıysa None.
+    Not: data/catalog/ bu temizlikten etkilenmez.
     """
     keep_details = set()
     keep_hashes = set()
@@ -217,7 +220,7 @@ def prune(campaigns: list, logger):
             logger.warning(f"Detay okunamadı, temizlik atlandı: {s['detail_path']}")
             return None
         keep_details.add(detail_path)
-        keep_hashes.update(p["hash"] for p in d["pages"])
+        keep_hashes.update(p["hash"] for p in d["pages"] if "hash" in p)
 
     for path in (DATA / "campaigns").rglob("*.json"):
         if path not in keep_details:
@@ -254,36 +257,29 @@ def run(logger) -> int:
     fetcher = Fetcher(requests.Session(impersonate=IMPERSONATE), logger)
     fresh_by_market = {}
     failed = []
-    blocked = False
 
     for mod in MARKETS:
         try:
-            fresh_by_market[mod.NAME] = process_market(mod, fetcher, manifest, today, logger)
+            fresh_by_market[mod.NAME] = process_market(mod, fetcher, manifest, logger)
             logger.info(f"[{mod.NAME}] tamam: {len(fresh_by_market[mod.NAME])} kampanya güncel")
         except BlockedError as e:
             failed.append(mod.NAME)
-            blocked = True
             logger.error(f"[{mod.NAME}] ENGEL ({e}). Bu çalıştırma durduruluyor.")
             break  # engel gelince diğer marketlere de geçme
         except Exception:
             failed.append(mod.NAME)
             logger.error(f"[{mod.NAME}] beklenmeyen hata:\n{traceback.format_exc()}")
 
-    # Migros: ürün listesi, index.json'a girmez, kendi paketlerini yazar
-    if not blocked:
-        try:
-            migros.sync(fetcher, DATA, logger)
-        except BlockedError as e:
-            failed.append(migros.NAME)
-            blocked = True
-            logger.error(f"[migros] ENGEL ({e})")
-        except Exception:
-            failed.append(migros.NAME)
-            logger.error(f"[migros] hata:\n{traceback.format_exc()}")
-    else:
-        logger.warning("[migros] engel nedeniyle bu çalıştırmada atlandı")
+    # Migroskop ve 5M katalogları: PDF üretimi, hata tüm çalıştırmayı durdurmaz
+    old_catalog = [c for c in old_campaigns if c["market"] == CATALOG_MARKET]
+    try:
+        catalog_entries = build_catalog(logger, fallback=old_catalog)
+    except Exception:
+        logger.error(f"[catalog] hata:\n{traceback.format_exc()}")
+        catalog_entries = [c for c in old_catalog if (DATA / c["detail_path"]).exists()]
+    catalog_entries = [c for c in catalog_entries if not c.get("end_date") or c["end_date"] >= today]
 
-    campaigns = merge(old_campaigns, fresh_by_market, today)
+    campaigns = sorted(merge(old_campaigns, fresh_by_market, today) + catalog_entries, key=sort_key)
     write_index(campaigns, logger)
 
     cleanup_tmp(logger)
