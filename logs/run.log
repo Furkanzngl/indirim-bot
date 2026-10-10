@@ -748,3 +748,17 @@ core.fetch.HttpError: 400 https://cdn1.bim.com.tr/uploads/afisler/ -> ''
 2026-10-10 22:45:10 [INFO] [catalog:5m] 159 sayfa üretildi (5mkatalog.pdf)
 2026-10-10 22:45:10 [INFO] index.json güncellendi (29 kampanya)
 2026-10-10 22:45:10 [INFO] Bitti. Yayında: 29 kampanya. Hatalı market: yok
+2026-10-11 00:19:40 [INFO] ==================================================
+2026-10-11 00:19:40 [INFO] Başladı: 2026-10-11 00:19 (impersonate=chrome124)
+2026-10-11 00:19:41 [INFO] [bim] 14 kampanya bulundu, hepsi işleniyor
+2026-10-11 00:20:52 [INFO] [bim] tamam: 14 kampanya güncel
+2026-10-11 00:20:54 [INFO] [sok] PDF indiriliyor: mv0lt575-7-13_ekim.pdf
+2026-10-11 00:21:13 [INFO] [sok] PDF indiriliyor: mv0lvk19-10-13_Ekim.pdf
+2026-10-11 00:21:19 [INFO] [sok] 2 kampanya bulundu, hepsi işleniyor
+2026-10-11 00:21:19 [INFO] [sok] tamam: 2 kampanya güncel
+2026-10-11 00:21:34 [INFO] [a101] 8 kampanya bulundu, hepsi işleniyor
+2026-10-11 00:23:02 [INFO] [a101] tamam: 8 kampanya güncel
+2026-10-11 00:23:02 [INFO] [catalog:migroskop] kaynak değişmedi, render atlandı
+2026-10-11 00:23:02 [INFO] [catalog:5m] kaynak değişmedi, render atlandı
+2026-10-11 00:23:02 [INFO] index.json güncellendi (29 kampanya)
+2026-10-11 00:23:02 [INFO] Bitti. Yayında: 29 kampanya. Hatalı market: yok
