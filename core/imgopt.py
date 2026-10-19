@@ -6,7 +6,7 @@ from PIL import Image
 # Kalite 75 metnin okunaklı kalması için yeterli, thumb liste ekranı için daha düşük tutuldu.
 SIZES = {
     "thumb": (360, 60),
-    "full": (720, 75),
+    "full": (1200, 82),
 }
 
 

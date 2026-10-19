@@ -846,3 +846,22 @@ core.fetch.HttpError: 400 https://cdn1.bim.com.tr/uploads/afisler/ -> ''
 2026-10-18 23:38:37 [INFO] index.json güncellendi (38 kampanya)
 2026-10-18 23:38:38 [INFO] eski detay silindi: campaigns\sok\sok_822d68ea13c3.json
 2026-10-18 23:38:38 [INFO] Bitti. Yayında: 38 kampanya. Hatalı market: yok
+2026-10-20 01:13:45 [INFO] ==================================================
+2026-10-20 01:13:45 [INFO] Başladı: 2026-10-20 01:13 (impersonate=chrome124)
+2026-10-20 01:13:46 [INFO] [bim] 14 kampanya bulundu, hepsi işleniyor
+2026-10-20 01:14:51 [INFO] yeni görsel: c3811636cc7c0785 (sayfa 1)
+2026-10-20 01:15:07 [INFO] yeni görsel: 84c4854bb6c9bb53 (sayfa 2)
+2026-10-20 01:15:23 [INFO] yeni görsel: fe46b84605bd68e7 (sayfa 3)
+2026-10-20 01:15:39 [INFO] yeni görsel: ab67336803e6e124 (sayfa 4)
+2026-10-20 01:15:45 [INFO] yeni görsel: 7f767a63cfc4dd3b (sayfa 1)
+2026-10-20 01:16:00 [INFO] [bim] tamam: 14 kampanya güncel
+2026-10-20 01:16:03 [INFO] [sok] PDF indiriliyor: mv4z9zfx-14-20ekim.pdf
+2026-10-20 01:22:06 [INFO] [sok] PDF indiriliyor: mv0lvk19-10-13_Ekim.pdf
+2026-10-20 01:23:54 [INFO] [sok] 2 kampanya bulundu, hepsi işleniyor
+2026-10-20 01:23:55 [INFO] [sok] tamam: 2 kampanya güncel
+2026-10-20 01:24:08 [ERROR] [a101] ENGEL (403 https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/yfs87luCRj9UCV4M?__culture=tr-TR&__platform=web). Bu çalıştırma durduruluyor.
+2026-10-20 01:24:09 [INFO] [catalog:migroskop] kaynak değişmedi, render atlandı
+2026-10-20 01:24:11 [INFO] [catalog:5m] kaynak değişmedi, render atlandı
+2026-10-20 01:24:11 [INFO] index.json güncellendi (39 kampanya)
+2026-10-20 01:24:14 [INFO] eski detay silindi: campaigns\a101\24P5IvAScaX11wGm.json
+2026-10-20 01:24:14 [INFO] Bitti. Yayında: 39 kampanya. Hatalı market: ['a101']
