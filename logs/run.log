@@ -865,3 +865,125 @@ core.fetch.HttpError: 400 https://cdn1.bim.com.tr/uploads/afisler/ -> ''
 2026-10-20 01:24:11 [INFO] index.json güncellendi (39 kampanya)
 2026-10-20 01:24:14 [INFO] eski detay silindi: campaigns\a101\24P5IvAScaX11wGm.json
 2026-10-20 01:24:14 [INFO] Bitti. Yayında: 39 kampanya. Hatalı market: ['a101']
+2026-10-20 15:14:49 [INFO] ==================================================
+2026-10-20 15:14:49 [INFO] Başladı: 2026-10-20 15:14 (impersonate=chrome124)
+2026-10-20 15:14:49 [INFO] [bim] 14 kampanya bulundu, hepsi işleniyor
+2026-10-20 15:14:54 [INFO] yeni görsel: 252a3b024a14cdcc (sayfa 1)
+2026-10-20 15:14:55 [INFO] yeni görsel: 784b3986d6548f6e (sayfa 2)
+2026-10-20 15:14:57 [INFO] yeni görsel: 56526f091e39ba27 (sayfa 3)
+2026-10-20 15:15:00 [INFO] yeni görsel: 10aa4761e64b5c8e (sayfa 1)
+2026-10-20 15:15:01 [INFO] yeni görsel: dcba8bfbdfb8bea6 (sayfa 2)
+2026-10-20 15:15:03 [INFO] yeni görsel: 68228d8bf43a2803 (sayfa 1)
+2026-10-20 15:15:04 [INFO] yeni görsel: 8114ace574819832 (sayfa 2)
+2026-10-20 15:15:06 [INFO] yeni görsel: 4485b7a922fba780 (sayfa 3)
+2026-10-20 15:15:08 [INFO] yeni görsel: f5b7a84bfe74ce9e (sayfa 1)
+2026-10-20 15:15:10 [INFO] yeni görsel: 899aaf58b96d3f16 (sayfa 2)
+2026-10-20 15:15:12 [INFO] yeni görsel: 7acc0e267e3fd009 (sayfa 3)
+2026-10-20 15:15:15 [INFO] yeni görsel: 53fe1139a858f521 (sayfa 4)
+2026-10-20 15:15:19 [INFO] yeni görsel: 910964064f43b150 (sayfa 1)
+2026-10-20 15:15:21 [INFO] yeni görsel: a750a51c41d7fb72 (sayfa 2)
+2026-10-20 15:15:23 [INFO] yeni görsel: 64454527404fc9c5 (sayfa 3)
+2026-10-20 15:15:26 [INFO] yeni görsel: 5ed4c139dd3e2615 (sayfa 1)
+2026-10-20 15:15:29 [INFO] yeni görsel: 67621dd75b37c4fd (sayfa 1)
+2026-10-20 15:15:32 [INFO] yeni görsel: 79f8f8a169c962f1 (sayfa 2)
+2026-10-20 15:15:35 [INFO] yeni görsel: 4e6fadd738638bfa (sayfa 1)
+2026-10-20 15:15:40 [INFO] yeni görsel: 53796713dc4c899f (sayfa 2)
+2026-10-20 15:15:42 [INFO] yeni görsel: 708f6d17063d27ef (sayfa 3)
+2026-10-20 15:15:45 [INFO] yeni görsel: d778e051857e99b5 (sayfa 4)
+2026-10-20 15:15:47 [INFO] yeni görsel: e044bf33006c8777 (sayfa 5)
+2026-10-20 15:15:49 [INFO] yeni görsel: 46caeabbf15e6ffc (sayfa 6)
+2026-10-20 15:15:52 [INFO] yeni görsel: c3811636cc7c0785 (sayfa 1)
+2026-10-20 15:15:56 [INFO] yeni görsel: 84c4854bb6c9bb53 (sayfa 2)
+2026-10-20 15:16:01 [INFO] yeni görsel: fe46b84605bd68e7 (sayfa 3)
+2026-10-20 15:16:04 [INFO] yeni görsel: ab67336803e6e124 (sayfa 4)
+2026-10-20 15:16:08 [INFO] yeni görsel: 7f767a63cfc4dd3b (sayfa 1)
+2026-10-20 15:16:12 [INFO] yeni görsel: f1706b4a73a8095b (sayfa 1)
+2026-10-20 15:16:16 [INFO] yeni görsel: 9b7e2cd888befa05 (sayfa 1)
+2026-10-20 15:16:19 [INFO] yeni görsel: 40c608e3b6e9ca89 (sayfa 2)
+2026-10-20 15:16:22 [INFO] yeni görsel: b55046b6cee73557 (sayfa 3)
+2026-10-20 15:16:28 [INFO] yeni görsel: 693c01757f97da47 (sayfa 1)
+2026-10-20 15:16:30 [INFO] yeni görsel: 74a35b4d5620f892 (sayfa 2)
+2026-10-20 15:16:30 [INFO] [bim] tamam: 14 kampanya güncel
+2026-10-20 15:16:35 [INFO] [sok] PDF indiriliyor: mv4z9zfx-14-20ekim.pdf
+2026-10-20 15:18:29 [INFO] [sok] PDF indiriliyor: mv0lvk19-10-13_Ekim.pdf
+2026-10-20 15:19:04 [INFO] [sok] 2 kampanya bulundu, hepsi işleniyor
+2026-10-20 15:19:10 [INFO] yeni görsel: ae7f2214acf3605e (sayfa 1)
+2026-10-20 15:19:15 [INFO] yeni görsel: 41db7b8f16cff6e1 (sayfa 2)
+2026-10-20 15:19:21 [INFO] yeni görsel: aa72005ae67438c5 (sayfa 3)
+2026-10-20 15:19:27 [INFO] yeni görsel: 5f73d1a2b82d5895 (sayfa 4)
+2026-10-20 15:19:32 [INFO] yeni görsel: 28af6208d9a3abf6 (sayfa 5)
+2026-10-20 15:19:39 [INFO] yeni görsel: 1da2ab6d9e484cf4 (sayfa 6)
+2026-10-20 15:19:44 [INFO] yeni görsel: ef061eb875527419 (sayfa 7)
+2026-10-20 15:19:50 [INFO] yeni görsel: 776a9e360b54ef4b (sayfa 8)
+2026-10-20 15:19:56 [INFO] yeni görsel: 1ca6d8a6af11d6c3 (sayfa 1)
+2026-10-20 15:20:01 [INFO] yeni görsel: 119b30ea7087f097 (sayfa 2)
+2026-10-20 15:20:06 [INFO] yeni görsel: 6d25af33e137fa15 (sayfa 3)
+2026-10-20 15:20:12 [INFO] yeni görsel: ae06b372fc93f289 (sayfa 4)
+2026-10-20 15:20:12 [INFO] [sok] tamam: 2 kampanya güncel
+2026-10-20 15:20:22 [INFO] [a101] 7 kampanya bulundu, hepsi işleniyor
+2026-10-20 15:20:27 [INFO] yeni görsel: f771266e7c4d111f (sayfa 1)
+2026-10-20 15:20:29 [INFO] yeni görsel: c965afc795dd29b9 (sayfa 1)
+2026-10-20 15:20:31 [INFO] yeni görsel: 9ad18f540d893416 (sayfa 2)
+2026-10-20 15:20:33 [INFO] yeni görsel: 49474691a50beeec (sayfa 3)
+2026-10-20 15:20:35 [INFO] yeni görsel: 7f6fa0036c15766b (sayfa 4)
+2026-10-20 15:20:37 [INFO] yeni görsel: 972bd9097118063d (sayfa 5)
+2026-10-20 15:20:39 [INFO] yeni görsel: 7c7fb4179e61aaf9 (sayfa 6)
+2026-10-20 15:20:41 [INFO] yeni görsel: da8dcf504a996096 (sayfa 1)
+2026-10-20 15:20:44 [INFO] yeni görsel: 285b297b1a6469ac (sayfa 2)
+2026-10-20 15:20:46 [INFO] yeni görsel: 4c10468030f1d33c (sayfa 3)
+2026-10-20 15:20:47 [INFO] yeni görsel: 63a5d7430930af18 (sayfa 4)
+2026-10-20 15:20:49 [INFO] yeni görsel: 277d9a3424d38357 (sayfa 5)
+2026-10-20 15:20:51 [INFO] yeni görsel: 413f8ae041aaa5cd (sayfa 6)
+2026-10-20 15:20:53 [INFO] yeni görsel: eb3bd489ccc93181 (sayfa 7)
+2026-10-20 15:20:55 [INFO] yeni görsel: 8d642131f409ef71 (sayfa 8)
+2026-10-20 15:20:57 [INFO] yeni görsel: 725347f04155207d (sayfa 9)
+2026-10-20 15:20:59 [INFO] yeni görsel: c933cbc0a8145e1e (sayfa 10)
+2026-10-20 15:21:02 [INFO] yeni görsel: 5d763fa3e9a0e102 (sayfa 11)
+2026-10-20 15:21:04 [INFO] yeni görsel: 3027b2497f1b9535 (sayfa 12)
+2026-10-20 15:21:06 [INFO] yeni görsel: 3a4abda2ea21dc12 (sayfa 13)
+2026-10-20 15:21:08 [INFO] yeni görsel: 9567f405b64200fa (sayfa 1)
+2026-10-20 15:21:10 [INFO] yeni görsel: 2603761201c58a14 (sayfa 2)
+2026-10-20 15:21:12 [INFO] yeni görsel: 8d4edd33ee502400 (sayfa 3)
+2026-10-20 15:21:14 [INFO] yeni görsel: bb3a9aaf3e07f165 (sayfa 4)
+2026-10-20 15:21:15 [INFO] yeni görsel: c0fb24b3fb06f7ec (sayfa 5)
+2026-10-20 15:21:17 [INFO] yeni görsel: c1e884305c2fb89b (sayfa 6)
+2026-10-20 15:21:20 [INFO] yeni görsel: bc3473679555b60b (sayfa 7)
+2026-10-20 15:21:22 [INFO] yeni görsel: 53c7718c548167ab (sayfa 8)
+2026-10-20 15:21:24 [INFO] yeni görsel: 7130a6f8e583fd04 (sayfa 9)
+2026-10-20 15:21:26 [INFO] yeni görsel: 9c5d5e119d8c4cec (sayfa 10)
+2026-10-20 15:21:28 [INFO] yeni görsel: 78d1b053171b6586 (sayfa 11)
+2026-10-20 15:21:29 [INFO] yeni görsel: 1684c5b9a7829516 (sayfa 1)
+2026-10-20 15:21:30 [INFO] yeni görsel: 1d2ef73b89ab0720 (sayfa 2)
+2026-10-20 15:21:32 [INFO] yeni görsel: 3c872c929eca29ca (sayfa 3)
+2026-10-20 15:21:34 [INFO] yeni görsel: a02be216b9200ad3 (sayfa 1)
+2026-10-20 15:21:37 [INFO] yeni görsel: ba7193f0fd8532ed (sayfa 2)
+2026-10-20 15:21:38 [INFO] yeni görsel: 0be139775fbe8c29 (sayfa 3)
+2026-10-20 15:21:40 [INFO] yeni görsel: e8c6799901d59cd8 (sayfa 4)
+2026-10-20 15:21:42 [INFO] yeni görsel: e15ed615bdf70dde (sayfa 5)
+2026-10-20 15:21:44 [INFO] yeni görsel: e30bb8e3cbe737c0 (sayfa 6)
+2026-10-20 15:21:46 [INFO] yeni görsel: ba28e90eacf15c31 (sayfa 7)
+2026-10-20 15:21:48 [INFO] yeni görsel: 6aeff69cf0f226da (sayfa 8)
+2026-10-20 15:21:49 [INFO] yeni görsel: 79ae1ea48b4b6875 (sayfa 1)
+2026-10-20 15:21:49 [INFO] [a101] tamam: 7 kampanya güncel
+2026-10-20 15:21:49 [INFO] [catalog:migroskop] kaynak değişmedi, render atlandı
+2026-10-20 15:21:50 [INFO] [catalog:5m] kaynak değişmedi, render atlandı
+2026-10-20 15:21:50 [INFO] index.json değişmedi, yazılmadı
+2026-10-20 15:21:50 [INFO] Bitti. Yayında: 39 kampanya. Hatalı market: yok
+2026-10-20 15:35:33 [INFO] ==================================================
+2026-10-20 15:35:33 [INFO] Başladı: 2026-10-20 15:35 (impersonate=chrome124)
+2026-10-20 15:35:33 [INFO] [bim] 14 kampanya bulundu, hepsi işleniyor
+2026-10-20 15:35:34 [INFO] [bim] tamam: 14 kampanya güncel
+2026-10-20 15:35:35 [INFO] [sok] PDF indiriliyor: mv4z9zfx-14-20ekim.pdf
+2026-10-20 15:36:44 [INFO] [sok] PDF indiriliyor: mv0lvk19-10-13_Ekim.pdf
+2026-10-20 15:37:01 [INFO] [sok] 2 kampanya bulundu, hepsi işleniyor
+2026-10-20 15:37:01 [INFO] [sok] tamam: 2 kampanya güncel
+2026-10-20 15:37:14 [INFO] [a101] 7 kampanya bulundu, hepsi işleniyor
+2026-10-20 15:37:14 [INFO] [a101] tamam: 7 kampanya güncel
+2026-10-20 15:37:14 [INFO] [catalog:migroskop] Bölüm 1: sayfa 1-108 render ediliyor
+2026-10-20 15:38:37 [INFO] [catalog:migroskop] Bölüm 2: sayfa 109-142 render ediliyor
+2026-10-20 15:38:51 [INFO] [catalog:migroskop] 142 sayfa üretildi (katalog.pdf)
+2026-10-20 15:38:51 [INFO] [catalog:5m] Bölüm 1: sayfa 1-111 render ediliyor
+2026-10-20 15:39:50 [INFO] [catalog:5m] Bölüm 2: sayfa 112-159 render ediliyor
+2026-10-20 15:40:25 [INFO] [catalog:5m] 159 sayfa üretildi (5mkatalog.pdf)
+2026-10-20 15:40:25 [INFO] index.json değişmedi, yazılmadı
+2026-10-20 15:40:26 [INFO] Bitti. Yayında: 39 kampanya. Hatalı market: yok
